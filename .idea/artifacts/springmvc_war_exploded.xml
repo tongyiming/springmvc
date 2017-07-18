@@ -1,0 +1,30 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="springmvc:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/springmvc_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="springmvc/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="springmvc" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="$USER_HOME$/桌面/spring资料/springmvc/day01/res/jar包/springmvc独立运行/spring-webmvc-3.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/桌面/spring资料/springmvc/day01/res/jar包/springmvc独立运行/spring-web-3.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/桌面/spring资料/springmvc/day01/res/jar包/springmvc独立运行/spring-tx-3.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/桌面/spring资料/springmvc/day01/res/jar包/springmvc独立运行/spring-test-3.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/桌面/spring资料/springmvc/day01/res/jar包/springmvc独立运行/spring-orm-3.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/桌面/spring资料/springmvc/day01/res/jar包/springmvc独立运行/spring-jdbc-3.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/桌面/spring资料/springmvc/day01/res/jar包/springmvc独立运行/spring-expression-3.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/桌面/spring资料/springmvc/day01/res/jar包/springmvc独立运行/spring-core-3.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/桌面/spring资料/springmvc/day01/res/jar包/springmvc独立运行/spring-context-support-3.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/桌面/spring资料/springmvc/day01/res/jar包/springmvc独立运行/spring-context-3.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/桌面/spring资料/springmvc/day01/res/jar包/springmvc独立运行/spring-beans-3.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/桌面/spring资料/springmvc/day01/res/jar包/springmvc独立运行/spring-aspects-3.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/桌面/spring资料/springmvc/day01/res/jar包/springmvc独立运行/spring-aop-3.2.0.RELEASE.jar" />
+          <element id="file-copy" path="$USER_HOME$/桌面/spring资料/springmvc/day01/res/jar包/springmvc独立运行/jstl-1.2.jar" />
+          <element id="file-copy" path="$USER_HOME$/桌面/spring资料/springmvc/day01/res/jar包/springmvc独立运行/commons-logging-1.1.1.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
