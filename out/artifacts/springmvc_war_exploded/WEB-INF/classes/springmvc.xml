@@ -14,9 +14,16 @@
 		http://www.springframework.org/schema/tx/spring-tx-3.2.xsd ">
 
     <!-- 配置Handler -->
-    <bean id="itemsController1" name="/queryItems.action" class="cn.itcast.ssm.controller.ItemsController1" />
+    <bean id="itemsController1" name="/queryItems5.action" class="cn.itcast.ssm.controller.ItemsController1" />
     <!--配置另一个handler-->
     <bean id="itemsController2" class="cn.itcast.ssm.controller.ItemsController2" />
+    <!--对于注解的handler可以单个配置
+        实际开发中建议使用组件扫描
+    -->
+    <!--<bean class="cn.itcast.ssm.controller.ItemsController3"/>-->
+
+    <!--扫描controller,指定controller的包-->
+    <context:component-scan base-package="cn.itcast.ssm.controller"></context:component-scan>
     <!--处理器适配器-->
     <bean class="org.springframework.web.servlet.mvc.SimpleControllerHandlerAdapter" />
     <!--另一个非注解适配器-->
@@ -32,6 +39,17 @@
             </props>
         </property>
     </bean>
+
+    <!--注解映射器 -->
+    <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping"/>
+    <!--注解适配器 -->
+    <bean class="org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter"/>
+
     <!--视图解析器-->
-    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver"/>
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <!--配置jsp路径的前缀-->
+        <property name="prefix" value="/WEB-INF/jsp/"/>
+        <!--配置jsp路径的后缀-->
+        <property name="suffix" value=".jsp"/>
+    </bean>
 </beans>
