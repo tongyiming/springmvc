@@ -1,2 +1,2 @@
-# springmvc_no-Annotation
-非注解实现springmvc
+# springmvc
+注解和非注解实现springmvc相关功能
